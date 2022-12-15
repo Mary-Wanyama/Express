@@ -5,7 +5,7 @@ class CreateParcels < ActiveRecord::Migration[7.0]
       t.string :weight
       t.string :pickup_location
       t.string :delivery_location
-      t.string :pickup_time
+      t.datetime :pickup_time
       t.string :sender
       t.string :receiver
 

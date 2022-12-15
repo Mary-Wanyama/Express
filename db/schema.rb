@@ -19,7 +19,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_15_161202) do
     t.string "weight"
     t.string "pickup_location"
     t.string "delivery_location"
-    t.string "pickup_time"
+    t.datetime "pickup_time"
     t.string "sender"
     t.string "receiver"
     t.datetime "created_at", null: false
