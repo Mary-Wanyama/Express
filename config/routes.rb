@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   get 'sessions/new'
 
   get "/me", to: "users#show"
+ resources :users, only: [:show]
 
   get "/profiles", to: "profiles#index"
   resources :profiles, only: [:index, :show, :create]

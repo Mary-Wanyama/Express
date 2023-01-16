@@ -14,6 +14,7 @@ User.create(username:'Osclel', email:'osclel.gmail.com', role: "Customer", passw
 User.create(username:'Doves', email:'doves.com', role: "Customer", password_digest: BCrypt::Password.create('password')) 
 User.create(username:'Pigeons', email:'pigeons.gmail.com', role: "Customer", password_digest: BCrypt::Password.create('mypassword')) 
 User.create(username:'Cameroon', email:'cameroon.gmail.com', role: "Customer", password_digest: BCrypt::Password.create('Yourpassword')) 
+User.create(username:'la', email:'la@mail.com', role: "Customer", password_digest: BCrypt::Password.create("pooiuryryryy@mail.com"), bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.")
 
 puts "done seeding users"
 
